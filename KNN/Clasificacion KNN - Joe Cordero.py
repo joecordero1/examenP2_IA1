@@ -88,5 +88,13 @@ plt.ylabel("BMI")
 plt.legend()
 plt.show()
 
-correlation = dataset.corr()
-print(correlation['Outcome'].sort_values(ascending=False))
+Objetivo: Clasificar observaciones basado en la clase de sus vecinos más cercanos.
+Ventajas: Sencillo, no requiere suposiciones sobre la distribución de los datos.
+Concepto clave: Mide distancias (Euclidiana, Manhattan) para determinar las clases.
+Escalado: Necesario.
+Ideal cuando: Hay muchas observaciones y relaciones complejas, pero es sensible al ruido en los datos.
+KNN se usó porque el análisis requería un enfoque no paramétrico y basado en distancias para clasificar instancias según sus vecinos más cercanos. Esto es útil cuando la relación entre las variables no es lineal y se quiere aprovechar la simplicidad de KNN.
+Dataset: Diagnóstico de diabetes basado en variables como Glucosa y BMI.
+Ventajas específicas:
+No hace suposiciones sobre la distribución de los datos.
+Útil para datos con relaciones no lineales entre variables.
