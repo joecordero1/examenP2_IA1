@@ -89,3 +89,15 @@ plt.xlabel("Glucosa")
 plt.ylabel("BMI")
 plt.legend()
 plt.show()
+
+Objetivo: Encontrar un hiperplano que separe las clases con el mayor margen posible.
+Ventajas: Muy efectivo en espacios de alta dimensionalidad y robusto contra el sobreajuste.
+Concepto clave: Usa funciones kernel para modelar relaciones no lineales.
+Escalado: Necesario.
+Ideal cuando: Los datos son no lineales o tienen clases bien separadas.
+Justificación:
+SVM fue elegido porque se buscaba un modelo que pudiera maximizar el margen entre clases en un espacio multidimensional, lo que lo hace ideal para problemas de clasificación con datos no perfectamente separables.
+Dataset: Clasificación binaria en un problema de diagnóstico médico.
+Ventajas específicas:
+Puede manejar relaciones no lineales al usar kernels.
+Robusto contra el sobreajuste en conjuntos de datos con dimensiones altas.
