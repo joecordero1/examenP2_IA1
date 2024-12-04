@@ -82,3 +82,14 @@ plt.xlabel("Edad")
 plt.ylabel("Systolic blood pressure")
 plt.legend()
 plt.show()
+
+Objetivo: Clasificar datos binarios (sí/no) o multicategorías (usando One-vs-Rest).
+Ventajas: Fácil de interpretar y eficiente para conjuntos pequeños.
+Concepto clave: Modela la probabilidad de que una observación pertenezca a una clase.
+Escalado: Necesario.
+Ideal cuando: Los datos tienen una relación lineal entre variables independientes y la log-odds de la variable objetivo.
+Este método fue utilizado porque el objetivo es clasificar una variable binaria (por ejemplo, si una persona tiene una condición médica o no). La regresión logística es efectiva para problemas lineales donde la relación entre las variables independientes y la variable objetivo puede ser modelada mediante log-odds.
+Dataset: Predicción basada en variables como Edad y Salario.
+Ventajas específicas:
+Fácil interpretación del resultado (probabilidad de pertenecer a una clase).
+Bajo riesgo de sobreajuste en datos pequeños o linealmente separables.
