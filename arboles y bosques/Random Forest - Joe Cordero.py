@@ -92,3 +92,16 @@ plt.xlabel('Edad')
 plt.ylabel('Salario')
 plt.legend()
 plt.show()
+
+
+Objetivo: Combinar múltiples árboles de decisión para mejorar la precisión y reducir el sobreajuste.
+Ventajas: Maneja bien conjuntos grandes y datos desbalanceados.
+Concepto clave: Promedia o vota entre los resultados de múltiples árboles.
+Escalado: No necesario.
+Ideal cuando: Los datos son ruidosos o tienen muchas características.
+Justificación:
+Random Forest fue elegido para abordar el posible ruido y mejorar la precisión combinando múltiples árboles de decisión. Es adecuado cuando los datos pueden tener relaciones complejas y no lineales.
+Dataset: Preferencias personales (Edad, Salario) y la predicción de una variable categórica.
+Ventajas específicas:
+Reduce el riesgo de sobreajuste presente en un único árbol de decisión.
+Generaliza mejor en problemas complejos con datos ruidosos.
