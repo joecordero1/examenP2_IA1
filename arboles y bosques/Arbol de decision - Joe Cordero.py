@@ -93,3 +93,17 @@ plt.xlabel('Edad')
 plt.ylabel('Salario')
 plt.legend()
 plt.show()
+
+
+Objetivo: Crear un modelo jerárquico para clasificar datos basado en preguntas binarias.
+Ventajas: Fácil de interpretar y no requiere escalado.
+Concepto clave: Utiliza medidas como Gini o Entropía para dividir datos.
+Escalado: No necesario.
+Ideal cuando: Se buscan reglas claras para explicar las decisiones.
+
+Justificación:
+Se utilizó este método porque el análisis requería un modelo explicativo, donde las reglas de clasificación (por ejemplo, preferencia por playa o montaña basada en Edad y Salario) fueran claras y fácilmente interpretables.
+Dataset: Clasificación basada en preferencias personales.
+Ventajas específicas:
+No requiere escalado de datos.
+Genera reglas comprensibles y visuales para tomar decisiones.
