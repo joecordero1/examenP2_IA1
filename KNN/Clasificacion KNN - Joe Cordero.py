@@ -42,7 +42,8 @@ X_test = sc_X.transform(X_test)
 
 # Configuración del clasificador K-Nearest Neighbors (K-NN)
 from sklearn.neighbors import KNeighborsClassifier
-knn = KNeighborsClassifier(n_neighbors=5, metric="minkowski", p=2)  # Distancia Euclidiana
+##p=1 minkowsi
+knn = KNeighborsClassifier(n_neighbors=5, metric="minkowski", p=2)  #p=1 minkowsi p=2 Distancia Euclidiana
 knn.fit(X_train, y_train)
 
 # Predicción de resultados utilizando el conjunto de prueba
