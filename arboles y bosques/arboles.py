@@ -62,3 +62,35 @@ plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
+
+Regresión Logística: Cuando los datos tienen una relación lineal y el objetivo es binario.
+KNN: Cuando se desea un método simple, basado en distancias, y no lineal.
+SVM: Para datos no lineales y donde se busca maximizar márgenes entre clases.
+Árbol de Decisión: Para reglas claras y modelos interpretativos sin necesidad de escalado.
+Random Forest: Para mejorar la precisión en datos complejos y mitigar el sobreajuste.
+  
+Evaluar el tipo de variable objetivo:
+Binaria: Regresión logística, SVM, KNN.
+Multiclase: Árbol de decisión, Random Forest, SVM.
+
+Relación entre las características y la variable objetivo:
+Lineal: Regresión logística.
+No lineal: SVM con kernel, Random Forest, KNN.
+
+Tamaño del dataset:
+Pequeño: Regresión logística, KNN.
+Grande: SVM, Random Forest.
+  
+Escalado:
+Si las características tienen diferentes rangos, SVM, KNN y regresión logística requieren escalado.
+
+Número de características:
+Muchas características: SVM, Random Forest.
+Pocas características: Árbol de decisión, KNN.
+
+Ruido y sobreajuste:
+Si los datos tienen mucho ruido: Random Forest o SVM.
+Si el modelo debe ser interpretativo: Árbol de decisión o regresión logística.
+
+Distribución de clases:
+Si hay desbalance: Random Forest maneja mejor el desbalance en comparación con KNN.
